@@ -1,0 +1,30 @@
+{
+  "name": "wetube-2022",
+  "version": "1.0.0",
+  "description": "Youtube Cloning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empodi/wetube-2022.git"
+  },
+  "author": "Empodi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/empodi/wetube-2022/issues"
+  },
+  "homepage": "https://github.com/empodi/wetube-2022#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "nodemon": "^2.0.19"
+  }
+}
